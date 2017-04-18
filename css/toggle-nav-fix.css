@@ -1,0 +1,4 @@
+input[type="checkbox"] + label::before {
+  position: absolute;
+  left: -1000px;
+}
