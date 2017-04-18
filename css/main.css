@@ -1,0 +1,247 @@
+html {
+  font-family: "Poppins", sans-serif;
+
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: #48B0F7;
+  position: relative;
+}
+
+.banner, .steps, .reviews, .subscriptions, .footer-content, .products, .navigation {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: block;
+}
+
+nav {
+  text-align: center;
+  display: inline;
+  overflow: hidden;
+}
+
+.nav {
+  display: none;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-check {
+  position: absolute;
+  top: -10em;
+}
+
+.nav-label img {
+  display: block;
+  width: 100%;
+  width: 30px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 1em;
+  margin-right: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: #f2f2f2;
+  text-align: center;
+}
+
+.social-icon {
+  max-width: 3em;
+}
+
+.btn {
+  max-width: 9em;
+  text-align: center;
+  background-color: #48B0F7;
+  color: #fff;
+  border-radius: 1em;
+  border: 2px solid #48B0F7;
+}
+
+.plans-btn {
+  margin: 0 auto;
+  display: block;
+}
+
+.homepage-banner {
+  border-bottom: 1px solid #48B0F7;
+}
+
+footer {
+  background-color: #48B0F7;
+}
+
+.social-header {
+  color: #f2f2f2;
+}
+
+.step-two {
+  background-color: #B6E4FA;
+}
+
+.get-started {
+  margin: 0 auto;
+  display: block;
+}
+
+.testimonials {
+  background-color: #B6E4FA;
+}
+
+.man, .woman {
+  max-width: 30em;
+}
+
+.step-two-left {
+  display: none;
+}
+
+.sweaters-left, .accessories-left {
+  display: none;
+}
+
+.man-right {
+  display: none;
+}
+
+table, th, td {
+  border-collapse: collapse;
+  border: none;
+  width: 10em;
+  padding: 0;
+}
+
+table {
+  width: 90%;
+  border: 3px solid #B6E4FA;
+  margin: 0 auto;
+  display: block;
+  padding: 0;
+
+}
+
+.border {
+  border-right: 3px solid #B6E4FA;
+  border-collapse: collapse;
+}
+
+td {
+  padding-bottom: 1em;
+}
+
+.check-mark {
+  max-width: 5em;
+}
+
+.price {
+  color: #48B0F7;
+  font-size: 4rem;
+  line-height: 2.275rem;
+}
+
+.pricing-btn {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.login {
+  color: #48B0F7;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid #48B0F7;
+}
+
+label {
+  display: none;
+}
+
+.sign-up-btn {
+  margin: 0 auto;
+  display: block;
+}
+
+@media only screen and (max-width: 38em) {
+
+  .banner-content {
+    text-align: center;
+  }
+
+  .home-banner-btn {
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+
+@media only screen and (max-width: 60em) {
+  header {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 60em){
+  .nav {
+    display: block;
+  }
+
+  .nav-check:checked ~ .nav {
+    display: none;
+  }
+
+  .nav-check {
+    display: none;
+  }
+
+  .nav-label img {
+    display: none;
+  }
+
+  .sweaters img {
+    align-items: left;
+  }
+
+  .sweaters-left, .accessories-left {
+    display: block;
+  }
+
+  .sweaters-right, .accessories-right {
+    display: none;
+  }
+
+  .table-wrap {
+    overflow: visible;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+  .step-two-left {
+    display: block;
+  }
+
+  .step-two-right {
+    display: none;
+  }
+
+  .man-right{
+    display: block;
+  }
+
+  .man-left{
+    display: none;
+  }
+}
