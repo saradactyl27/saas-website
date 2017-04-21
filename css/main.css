@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  background-color: #48B0F7;
+  background-color: #48b0f7;
   position: relative;
 }
 
@@ -63,14 +63,14 @@ a {
 .btn {
   max-width: 9em;
   text-align: center;
-  background-color: #48B0F7;
+  background-color: #48b0f7;
   color: #fff;
   border-radius: 1em;
-  border: 2px solid #48B0F7;
+  border: 2px solid #48b0f7;
 }
 a:hover {
-  background-color: #3F7A9F;
-  border: 2px solid #3F7A9F;
+  background-color: #3f7a9f;
+  border: 2px solid #3f7a9f;
   border-radius: 1em;
   padding: .5em;
 }
@@ -81,11 +81,11 @@ a:hover {
 }
 
 .homepage-banner {
-  border-bottom: 1px solid #48B0F7;
+  border-bottom: 1px solid #48b0f7;
 }
 
 footer {
-  background-color: #48B0F7;
+  background-color: #48b0f7;
 }
 
 .social-header {
@@ -93,7 +93,7 @@ footer {
 }
 
 .step-two {
-  background-color: #B6E4FA;
+  background-color: #b6e4fa;
 }
 
 .get-started {
@@ -102,7 +102,7 @@ footer {
 }
 
 .testimonials {
-  background-color: #B6E4FA;
+  background-color: #b6e4fa;
 }
 
 .man, .woman {
@@ -126,7 +126,7 @@ th, td {
   width: 5em;
   padding: 0;
   vertical-align: middle;
-  border: 2px solid #B6E4FA;
+  border: 2px solid #b6e4fa;
 }
 
 table {
@@ -138,7 +138,7 @@ table {
 }
 
 .border {
-  border-right: 3px solid #B6E4FA;
+  border-right: 3px solid #b6e4fa;
 }
 
 td {
@@ -146,7 +146,7 @@ td {
 }
 
 .col-head {
-  background-color: #B6E4FA;
+  background-color: #b6e4fa;
 }
 
 .check-mark-products {
@@ -161,7 +161,7 @@ td {
 }
 
 .price {
-  color: #48B0F7;
+  color: #48b0f7;
   font-size: 4rem;
   line-height: 2.275rem;
 }
@@ -173,7 +173,7 @@ td {
 }
 
 .price-card {
-  border: 2px solid #B6E4FA;
+  border: 2px solid #b6e4fa;
   max-width: 18em;
   margin: 0 auto;
   margin-bottom: 1em;
@@ -182,12 +182,12 @@ td {
 
 
 .login {
-  color: #48B0F7;
+  color: #48b0f7;
 }
 
 input {
   border: none;
-  border-bottom: 1px solid #48B0F7;
+  border-bottom: 1px solid #48b0f7;
 }
 
 label {
