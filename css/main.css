@@ -13,7 +13,7 @@ header {
   position: relative;
 }
 
-.banner, .steps, .reviews, .subscriptions, .footer-content, .products, .navigation {
+.banner, .steps, .reviews, .subscriptions, .footer-content, .products, .navigation, .pricing {
   max-width: 1400px;
   margin: 0 auto;
   display: block;
@@ -68,6 +68,12 @@ a {
   border-radius: 1em;
   border: 2px solid #48B0F7;
 }
+a:hover {
+  background-color: #3F7A9F;
+  border: 2px solid #3F7A9F;
+  border-radius: 1em;
+  padding: .5em;
+}
 
 .plans-btn {
   margin: 0 auto;
@@ -115,32 +121,42 @@ footer {
   display: none;
 }
 
-table, th, td {
+th, td {
   border-collapse: collapse;
-  border: none;
-  width: 10em;
+  width: 5em;
   padding: 0;
+  vertical-align: middle;
+  border: 2px solid #B6E4FA;
 }
 
 table {
   width: 90%;
-  border: 3px solid #B6E4FA;
+  border-collapse: collapse;
   margin: 0 auto;
   display: block;
   padding: 0;
-
 }
 
 .border {
   border-right: 3px solid #B6E4FA;
-  border-collapse: collapse;
 }
 
 td {
   padding-bottom: 1em;
 }
 
-.check-mark {
+.col-head {
+  background-color: #B6E4FA;
+}
+
+.check-mark-products {
+  max-width: 3em;
+  max-height: 3em;
+  margin: 0 auto;
+  display: block;
+}
+
+.check-mark{
   max-width: 5em;
 }
 
@@ -155,6 +171,15 @@ td {
   display: block;
   text-align: center;
 }
+
+.price-card {
+  border: 2px solid #B6E4FA;
+  max-width: 18em;
+  margin: 0 auto;
+  margin-bottom: 1em;
+}
+
+
 
 .login {
   color: #48B0F7;
@@ -172,7 +197,7 @@ label {
 .sign-up-btn, .start-designing-btn {
   margin: 0 auto;
   display: block;
-
+  padding: .5em 1em;
 }
 
 
