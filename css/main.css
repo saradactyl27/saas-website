@@ -156,7 +156,7 @@ td {
   display: block;
 }
 
-.check-mark{
+.check-mark {
   max-width: 5em;
 }
 
@@ -238,10 +238,6 @@ label {
     display: none;
   }
 
-  .sweaters img {
-    align-items: left;
-  }
-
   .sweaters-left, .accessories-left {
     display: block;
   }
@@ -264,11 +260,11 @@ label {
     display: none;
   }
 
-  .man-right{
+  .man-right {
     display: block;
   }
 
-  .man-left{
+  .man-left {
     display: none;
   }
 }
