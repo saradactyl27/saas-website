@@ -60,9 +60,7 @@ nav {
 }
 
 .nav-link:hover {
-  background-color: #3f7a9f;
-  border: 2px solid #3f7a9f;
-  border-radius: 1em;
+  color: #3f7a9f;
   padding: .5em;
 }
 
@@ -228,9 +226,8 @@ label {
     display: block;
   }
 
-  .nav-head {
-    margin: 0 auto;
-    text-align: center;
+  .footer-nav {
+    display: none;
   }
 }
 
@@ -245,9 +242,8 @@ label {
     display: block;
   }
 
-  .nav-head {
-    margin: 0;
-    text-align: left;
+  .footer-nav {
+    display: none;
   }
 }
 
@@ -279,6 +275,10 @@ label {
 
   .table-wrap {
     overflow: visible;
+  }
+
+  .footer-nav {
+    display: block;
   }
 }
 
